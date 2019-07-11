@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.bsc.internal</groupId>
+	<artifactId>java-sample-code</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>java-sample-code</name>
+	<description>This project is used only for research on the java code and trying to find out new things for practice.</description>
+
+	<properties>
+		<fasterxml.version>2.8.8</fasterxml.version>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+
+		<!-- jackson-core -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${fasterxml.version}</version>
+		</dependency>
+		<!-- Jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${fasterxml.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.module</groupId>
+		    <artifactId>jackson-module-jsonSchema</artifactId>
+		    <version>${fasterxml.version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+</project>
