@@ -9,7 +9,7 @@
 	<description>This project is used only for research on the java code and trying to find out new things for practice.</description>
 
 	<properties>
-		<fasterxml.version>2.8.8</fasterxml.version>
+		<fasterxml.version>2.13.4.1</fasterxml.version>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
